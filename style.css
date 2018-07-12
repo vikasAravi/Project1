@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Asul');
+@import url('https://fonts.googleapis.com/css?family=Acme');
+*{
+	padding: 0px;
+	margin: 0px;
+    font-family: sans-serif;
+}
+body{
+	margin: 0 20%;
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid silver;
+	align-items: center;
+}
+.head-desc{
+    color: silver;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	font-style: bold;
+}
+h1{
+	font-weight: 20;
+}
+.main-content{
+	margin: 10px 0;
+	width: 100%;
+}
+.main-content img{
+	width: 100%;
+}
+.gallery{
+	display: flex;
+	justify-content: space-between;
+}
+.gallery, img{
+	width: 250px;
+}
+#gallery-heading{
+	display: block;
+}
+.gallery-item{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 2px;
+}
